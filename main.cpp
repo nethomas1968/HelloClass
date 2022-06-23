@@ -5,6 +5,8 @@
  * 
  * #> HelloClass -x10 -y2
  * 
+ * Created June 2022.
+ * 
  ***************************************/
 #include <iostream>
 #include <unistd.h>
