@@ -9,3 +9,9 @@ Rectangle.o: Rectangle.cpp Rectangle.h
 
 .o: main.cpp
 	g++ -c main.cpp
+
+.phony: clean
+
+clean:
+	rm -f HelloClass
+	rm -f *.o

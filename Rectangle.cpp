@@ -2,6 +2,12 @@
 #include <cstdint>
 #include "Rectangle.h"
 
+/*********************************
+ * A simple class for a Rectangle, 
+ * which knows it's width and height. 
+ * And can calculate it's area.
+ *********************************/
+
 Rectangle::Rectangle() {
     bIsValid = false;
     setValues(0,0);
